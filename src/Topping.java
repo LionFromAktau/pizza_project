@@ -35,7 +35,6 @@ public class Topping {
 
     @Override
     public String toString(){
-        return "Toping name: " + getToppingName() + " Spice level: " + getSpiceLevel() +
-                "\nDiscription:\n" + getDiscription() + "\n";
+        return "\nToping name: " + getToppingName() + " Spice level: " + getSpiceLevel() + "Discription: " + getDiscription();
     }
 }

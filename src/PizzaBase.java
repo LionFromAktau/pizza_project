@@ -35,7 +35,6 @@ public class PizzaBase {
 
     @Override
     public String toString(){
-        return "Base type: " + getBaseType() + " Base name: " + getBaseName() +
-                "\nDiscription:\n" + getDiscription() + "\n";
+        return "\nBase type: " + getBaseType() + " Base name: " + getBaseName() + "Discription: " + getDiscription();
     }
 }
